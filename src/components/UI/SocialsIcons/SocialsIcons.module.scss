@@ -1,0 +1,17 @@
+.root {
+  display: flex;
+  column-gap: 10px;
+}
+.icon {
+  width: 22px;
+  height: 22px;
+  path {
+    fill: var(--dark-sea);
+  }
+  &:hover {
+    path {
+      fill: var(--dark-sky);
+      transition: fill 0.2s ease-in-out;
+    }
+  }
+}

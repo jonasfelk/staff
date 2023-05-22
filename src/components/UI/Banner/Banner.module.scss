@@ -1,0 +1,58 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  background-color: var(--dark);
+  border-radius: 6px;
+  min-height: 570px;
+}
+.left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 55px;
+}
+.content {
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 85px;
+  color: var(--violet-dark);
+  margin-bottom: 25px;
+  span {
+    font-weight: 300;
+    font-size: 150px;
+    line-height: 183px;
+    text-transform: uppercase;
+  }
+}
+.shoe {
+  position: absolute;
+  left: -25px;
+  bottom: 75px;
+}
+.device {
+  position: absolute;
+  right: -25px;
+  bottom: -30px;
+}
+.right {
+  img {
+    min-width: 637px;
+    max-height: 570px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: var(--bg);
+    margin-top: -45px;
+  }
+  span {
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    color: var(--violet-dark);
+  }
+}

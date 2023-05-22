@@ -1,0 +1,58 @@
+.root {
+  border-radius: 8px;
+  background-color: var(--bg);
+  width: 232px;
+  overflow: hidden;
+}
+.image {
+  width: 230px;
+  height: 410px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 12px;
+  height: 100px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+.subCategory {
+  font-size: 12px;
+  line-height: 15px;
+  color: var(--grey);
+}
+.row {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.prise {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--violet);
+}
+.oldPrise {
+  margin-left: 5px;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--dark-sea);
+  text-decoration-line: line-through;
+}
+.count {
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--dark-sea);
+}

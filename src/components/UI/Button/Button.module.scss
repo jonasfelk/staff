@@ -1,0 +1,24 @@
+.root {
+  display: inline-block;
+  border-radius: 6px;
+  padding: 10px 20px;
+  transition: all 0.2s ease-in-out;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &:disabled {
+    background: var(--bg);
+    cursor: not-allowed;
+  }
+}
+.violet {
+  color: var(--white);
+  background-color: var(--violet-dark);
+}
+.grey {
+   color: var(--grey);
+  background-color: var(--dark-sea);
+}

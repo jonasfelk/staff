@@ -1,0 +1,19 @@
+.root {
+  background-color: var(--dark);
+  border-radius: 6px;
+  padding: 25px;
+  margin-bottom: 20px;
+}
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--white);
+  margin-bottom: 25px;
+  text-align: center;
+}
+.categories {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}

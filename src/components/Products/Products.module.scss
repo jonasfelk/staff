@@ -1,0 +1,33 @@
+.root {
+  // background-color: var(--dark);
+  // border-radius: 6px;
+  // padding: 20px;
+  // margin-bottom: 20px;
+}
+.rootDefault {
+  background-color: transparent;
+  border-radius: 0px;
+  padding: 0px;
+  margin-bottom: 0px;
+}
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--white);
+  margin-bottom: 25px;
+  text-align: center;
+}
+.titleDefault {
+  margin-bottom: 0px;
+}
+.products {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  margin-top: 25px;
+  text-align: center;
+}

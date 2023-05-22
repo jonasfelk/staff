@@ -1,0 +1,147 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: var(--dark);
+  h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.empty {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+  margin: 15px 0 15px 0;
+}
+.item {
+  display: grid;
+  grid-template-columns: 100px 2fr 1fr 1.5fr 1fr 16px;
+  align-items: center;
+  background: var(--bg);
+  border-radius: 8px;
+  height: 70px;
+  padding: 12px 16px;
+  width: 100%;
+}
+.img {
+  width: 98.27px;
+  height: 47px;
+  border-radius: 6px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  row-gap: 4px;
+}
+.title {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+.category {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: var(--grey);
+}
+.price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  user-select: none;
+  span {
+    color: var(--dark-sea);
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    width: 40px;
+  }
+}
+.minus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  background: var(--dark-sea);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  &:hover {
+    background-color: var(--violet);
+  }
+}
+.plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+  width: 25px;
+  background: var(--dark-sea);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+  &:hover {
+    background-color: var(--violet);
+  }
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+.countPrice {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: var(--violet);
+}
+.delete {
+  path {
+    stroke: #fff;
+    &:hover {
+      stroke: #9e9e9e;
+    }
+  }
+  cursor: pointer;
+}
+.totalPrice {
+  color: var(--grey);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  span {
+    color: #fff;
+  }
+}
+.checkout {
+  background: var(--violet-dark);
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 9px 20px;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}

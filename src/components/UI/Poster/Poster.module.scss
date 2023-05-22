@@ -1,0 +1,45 @@
+.root {
+  position: relative;
+  display: flex;
+  flex-grow: 1;
+  padding: 0 40px 0 40px;
+  background-color: var(--dark);
+  border-radius: 6px;
+  &::after {
+    position: absolute;
+    content: '';
+    right: 40px;
+    top: 82px;
+    width: 462px;
+    height: 359px;
+    background: url('../../../assets/images/computer.png');
+    z-index: 99;
+  }
+  span {
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--grey-dark);
+    margin-bottom: 8px;
+  }
+}
+.title {
+  max-width: 481px;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 51px;
+  text-transform: uppercase;
+  color: var(--light);
+  margin-bottom: 25px;
+}
+.content {
+  flex-direction: column;
+}
+.sale {
+  font-weight: 900;
+  font-size: 117px;
+  line-height: 145px;
+  text-transform: uppercase;
+  color: var(--bg);
+  margin-bottom: 10px;
+}
